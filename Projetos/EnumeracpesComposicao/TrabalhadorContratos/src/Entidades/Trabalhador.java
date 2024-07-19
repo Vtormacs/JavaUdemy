@@ -62,7 +62,9 @@ public class Trabalhador {
 
     public void adicionarContrato(ContratoPorHora contrato) {
         contratos.add(contrato);
-    };
+    }
+
+    ;
     
     public void removerContrato(ContratoPorHora contrato) {
         contratos.remove(contrato);
@@ -74,7 +76,7 @@ public class Trabalhador {
         Calendar calendario = Calendar.getInstance();
         for (ContratoPorHora c : contratos) {
             calendario.setTime(c.getData());
-            int c_ano = calendario.get(Calendar.YEAR) ;
+            int c_ano = calendario.get(Calendar.YEAR);
             int c_mes = 1 + calendario.get(Calendar.MONTH);
             if (ano == c_ano && mes == c_mes) {
                 soma += c.valorTotal();
