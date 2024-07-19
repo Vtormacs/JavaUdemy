@@ -1,20 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package javaapplication5;
 
-/**
- *
- * @author vitor
- */
+import entidades.Pedidos;
+import entidades.enums.OrderStatus;
+import java.util.Date;
+
 public class JavaApplication5 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Pedidos pedido = new Pedidos(180, new Date(), OrderStatus.AGUARDANDO_PAGAMENTO);
+        System.out.println(pedido);
+        
+        OrderStatus os1 = OrderStatus.PROCESSANDO;
+        OrderStatus os2 = OrderStatus.valueOf("PROCESSANDO");
+        System.out.println(os1);
+        System.out.println(os2);
     }
-    
+   
 }
