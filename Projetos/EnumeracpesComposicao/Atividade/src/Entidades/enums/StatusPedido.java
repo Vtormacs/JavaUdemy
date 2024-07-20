@@ -7,4 +7,4 @@ public enum StatusPedido {
     ENVIADO,
     ENTREGUE;
     
-}
+} 
