@@ -15,7 +15,7 @@ public class Programa {
 
     public static void main(String[] args) throws ParseException {
 
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
