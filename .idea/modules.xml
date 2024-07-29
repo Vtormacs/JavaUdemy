@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Projetos/EnumeracpesComposicao/Atividade/Atividade.iml" filepath="$PROJECT_DIR$/Projetos/EnumeracpesComposicao/Atividade/Atividade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/HerançaPoliformismo/HerançaPoliformismo.iml" filepath="$PROJECT_DIR$/Projetos/HerançaPoliformismo/HerançaPoliformismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaUdemy.iml" filepath="$PROJECT_DIR$/.idea/JavaUdemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/EnumeracpesComposicao/PostagemComentarios/PostagemComentarios.iml" filepath="$PROJECT_DIR$/Projetos/EnumeracpesComposicao/PostagemComentarios/PostagemComentarios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/EnumeracpesComposicao/Projeto1/Projeto1.iml" filepath="$PROJECT_DIR$/Projetos/EnumeracpesComposicao/Projeto1/Projeto1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/EnumeracpesComposicao/Projeto2/Projeto2.iml" filepath="$PROJECT_DIR$/Projetos/EnumeracpesComposicao/Projeto2/Projeto2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projetos/EnumeracpesComposicao/TrabalhadorContratos/TrabalhadorContratos.iml" filepath="$PROJECT_DIR$/Projetos/EnumeracpesComposicao/TrabalhadorContratos/TrabalhadorContratos.iml" />
+    </modules>
+  </component>
+</project>
