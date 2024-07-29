@@ -36,7 +36,7 @@ public class Conta {
     }
 
     public void sacarDinheiro(Double valor) {
-        saldo -= valor;
+        saldo -= valor + 5.0;
     }
 
     public void depositarDinheiro(Double valor) {
